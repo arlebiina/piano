@@ -1,0 +1,39 @@
+body { 
+    background: #fffffc; 
+    color: #ab8c74; 
+    font-family: 'Courier New', monospace; 
+    text-align: center; 
+    padding-top: 50px;
+}
+
+.keyboard { 
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+    margin-top: 30px; 
+}
+
+.key {
+    width: 60px; 
+    height: 150px;
+    background: #ffd2d4;
+    border: 2px solid #7e614a;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+    transition: all 0.1s;
+    display: flex; 
+    align-items: flex-end; 
+    justify-content: center;
+    padding-bottom: 10px; 
+    font-weight: bold;
+}
+
+.key:active { 
+    background: #ab8c74; 
+    color: #fffffc; 
+    transform: translateY(5px); 
+}
+
+p { 
+    opacity: 0.7; 
+}
